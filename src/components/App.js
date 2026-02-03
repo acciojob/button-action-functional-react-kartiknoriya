@@ -19,7 +19,7 @@ function App() {
       <button id="click" onClick={handleToggle}>
         {btntoggle ? 'Hide text' : 'show text'}
       </button>
-      <p>{showpara ? ' ' : `Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.`}</p>
+      <p id="para">{showpara ? ' ' : `Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.`}</p>
       {showpara}
     </div>
   );
